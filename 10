@@ -1,0 +1,26 @@
+#Assignment-1: Arithmetic Operators.
+
+num1 = int (input("input first number into num1\n"))
+num2 = int (input("input second number into num2\n"))
+
+num3=num1
+num1=num2
+num2=num3
+
+print("The num1 is now =",num1,"The num2 is now =",num2)
+
+#WAP to input temperature in Celsius, covert it into Fahrenheit using the Formula:
+#Fahrenheit = (9/5)* Celsius + 32.
+
+temperatureC = int (input("Enter the temperature in celsius"))
+temperatureF = (9/5)*temperatureC+32
+
+print(temperatureC,"celsius =",temperatureF,"Fahrenheit")
+
+#WAP to calculate sum of digits of any integer between 1 to 1000.
+
+num= int (input("Enter a number between 1 to 1000"))
+
+onesplace = num%10
+num = num//10
+
